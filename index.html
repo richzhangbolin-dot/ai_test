@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario AI</title>
+    <link rel="preload" as="image" href="https://www.figma.com/api/mcp/asset/b890faea-abd6-46c2-963e-baf972222124" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell" aria-label="Mario AI 首页">
+      <aside class="sidebar">
+        <div class="sidebar-main">
+          <header class="brand-row"><h1>Mario</h1><img src="https://www.figma.com/api/mcp/asset/b890faea-abd6-46c2-963e-baf972222124" alt="" /></header>
+          <nav class="primary-nav" aria-label="主导航">
+            <a class="nav-item is-active" href="#"><img src="https://www.figma.com/api/mcp/asset/6108bf63-e69a-4cbf-a2d8-d5e4b53ad04e" alt="" /><span>新建会话</span></a>
+            <a class="nav-item" href="#"><img src="https://www.figma.com/api/mcp/asset/e94f0df8-beb0-4935-98fc-a6e4740a0cea" alt="" /><span>数字员工</span></a>
+            <a class="nav-item" href="#"><img src="https://www.figma.com/api/mcp/asset/e62acb0e-c461-4a7e-a166-52d734f033fe" alt="" /><span>Mario 集市</span></a>
+            <a class="nav-item" href="#"><img src="https://www.figma.com/api/mcp/asset/4332513c-3b9d-4a93-8f76-ca424efff75e" alt="" /><span>工作台</span></a>
+            <a class="nav-item" href="#"><img src="https://www.figma.com/api/mcp/asset/dfbb0eab-ff6f-4fe3-aa41-b6aa27ab0ee0" alt="" /><span>Mario Team</span><b>BETA</b></a>
+          </nav>
+          <section class="history" aria-label="最近会话">
+            <div class="history-title"><span>7天</span><img src="https://www.figma.com/api/mcp/asset/7f3751fd-07b9-4171-8132-35ba229d2a3d" alt="" /></div>
+            <div class="thread-list">
+              <a class="thread" href="#"><span>UI 专家</span></a><a class="thread is-selected" href="#"><span>错误排查</span></a><a class="thread" href="#"><span>Interactive iridescent playing card with hover effects</span></a><a class="thread" href="#"><span>loading mode</span><img class="thread-more" src="https://www.figma.com/api/mcp/asset/c0c7eb9c-19f7-4d3e-bb73-d68597ebcaae" alt="" /></a>
+            </div>
+            <div class="thread-list second"><a class="thread" href="#"><span>UI 专家</span></a><a class="thread" href="#"><span>Interactive iridescent playing card with hover effects</span></a><a class="thread" href="#"><span>loading mode</span></a></div>
+          </section>
+        </div>
+        <footer class="sidebar-footer"><a class="help" href="#"><img src="https://www.figma.com/api/mcp/asset/9a87d1c3-9b5c-4f7a-8669-b7ca54f07efd" alt="" /><span>反馈群</span></a><div class="points"><img src="https://www.figma.com/api/mcp/asset/9c013a4a-8210-4e13-ae55-ed270d62459c" alt="" /><span>积分：剩余 60%</span></div></footer>
+        <button class="sidebar-resizer" type="button" aria-label="拖拽调整侧栏宽度"></button>
+      </aside>
+      <section class="workspace">
+        <div class="hero"><div class="product-lockup"><span class="logo-mark"><img src="https://www.figma.com/api/mcp/asset/b890faea-abd6-46c2-963e-baf972222124" alt="" width="42" height="46" decoding="sync" fetchpriority="high" /></span><strong class="title-wordmark" aria-label="我是你的专属助理，一起工作吧"><span style="--i:1">我</span><span style="--i:2">是</span><span style="--i:3">你</span><span style="--i:4">的</span><span style="--i:5">专</span><span style="--i:6">属</span><span style="--i:7">助</span><span style="--i:8">理</span><span style="--i:9">，</span><span style="--i:10">一</span><span style="--i:11">起</span><span style="--i:12">工</span><span style="--i:13">作</span><span style="--i:14">吧</span></strong></div></div>
+        <section class="composer-panel" aria-label="新会话输入框">
+          <div class="composer-card">
+            <label class="prompt-field" aria-label="输入消息"><textarea class="prompt-input" rows="1" placeholder="今天有什么我可以帮你的?  (输入 @ 引用内容)"></textarea></label>
+            <div class="composer-tools">
+              <div class="tool-left">
+                <button class="filter-button" type="button"><img src="https://www.figma.com/api/mcp/asset/faa2d5f7-7dc2-40af-bae1-ed72ce69f8b4" alt="" /><span>数字员工</span><img class="chevron" src="https://www.figma.com/api/mcp/asset/70b9c549-334f-41ac-8056-3a092ae4e284" alt="" /></button>
+                <button class="filter-button" type="button"><img src="https://www.figma.com/api/mcp/asset/78fb6d54-f3d0-4e10-ba6d-d0f48b621869" alt="" /><span>选择技能</span><img class="chevron" src="https://www.figma.com/api/mcp/asset/70b9c549-334f-41ac-8056-3a092ae4e284" alt="" /></button>
+                <button class="filter-button" type="button"><span class="model-dot"><img src="https://www.figma.com/api/mcp/asset/bcd368d0-33d9-45d7-b204-a67afbb26a8f" alt="" /></span><span>Opus 4.7</span><img class="chevron" src="https://www.figma.com/api/mcp/asset/70b9c549-334f-41ac-8056-3a092ae4e284" alt="" /></button>
+              </div>
+              <div class="tool-right"><button class="icon-button" type="button" aria-label="引用内容"><img src="https://www.figma.com/api/mcp/asset/5757edb5-b50d-4078-9ba7-cbffbd3abf1e" alt="" /></button><button class="icon-button" type="button" aria-label="附件"><img src="https://www.figma.com/api/mcp/asset/d02b612d-c95e-4a73-bae2-b379bdf0a645" alt="" /></button><button class="send-button" type="button" aria-label="发送"><img src="https://www.figma.com/api/mcp/asset/79b95bee-3282-4a6c-9a5a-27514574ec57" alt="" /></button></div>
+            </div>
+          </div>
+          <div class="document-mode-panel" aria-label="文档指令建议"><div class="document-mode-header"><div class="document-mode-title"><img src="https://www.figma.com/api/mcp/asset/849becb3-bec6-41b2-8e25-c7b6a7cd0d20" alt="" /><span>文档</span></div><button class="document-close" type="button" aria-label="关闭文档指令"><img src="https://www.figma.com/api/mcp/asset/4e74b4d4-e1bd-4265-b9ac-a17ce7064915" alt="" /></button></div><div class="document-suggestions"><button type="button"><span>If you need more information from me, ask me 1-2 key questions right away. If you think I should give you more context or upload anything to help you do a better job, let me know.</span></button><button type="button"><span>Could you help me develop my unique voice as a writer? If you need more information from me, ask me 1-2 key questions right away.</span></button><button type="button"><span>improve my writing style。 If you need more information from me, ask me 1-2 key questions right away.</span></button></div></div>
+          <div class="quick-actions"><button class="quick-action document-action" type="button" aria-pressed="false"><img src="https://www.figma.com/api/mcp/asset/7269c362-e805-484e-b08e-2c772038c70e" alt="" /><span>文档处理</span></button><button class="quick-action" type="button"><img src="https://www.figma.com/api/mcp/asset/9b1510a5-f100-4d3f-b997-4da3040a2718" alt="" /><span>深度研究</span></button><button class="quick-action" type="button"><img src="https://www.figma.com/api/mcp/asset/9584cf9b-faa3-45eb-aca5-1740428c1d6f" alt="" /><span>数据分析</span></button><button class="quick-action" type="button"><img src="https://www.figma.com/api/mcp/asset/af551c2b-8696-4a0a-9228-56dc571e8fad" alt="" /><span>PPT</span></button></div>
+        </section>
+        <section class="document-previews" aria-label="文档预览"><article class="document-preview"><div class="document-sheet text-sheet"><p class="doc-text doc-text-1">Hi Claude! Could you develop content calendars? If you need more information from me, ask me 1-2 key questions right away. If you think I should give you more context or upload anything to help you do a better job, let me know. Use any tools you have access to—like Google Drive, web search, etc.—if they'll help.</p><p class="doc-text doc-text-2">If it makes sense, create something we can look at together—like a visual, a checklist, or something interactive. Thanks for your help!</p><p class="doc-text doc-text-3">Hi Claude! Could you develop content calendars? If you need more information from me, ask me 1-2 key questions right away.</p></div></article><article class="document-preview"><div class="document-sheet image-sheet"><div class="preview-images"><img src="https://www.figma.com/api/mcp/asset/06d63013-c5a4-455c-8831-28377706a44a" alt="" /><img src="https://www.figma.com/api/mcp/asset/600eeb85-9e8a-4d60-bfaa-8af46679ef5d" alt="" /></div><p class="doc-text image-text-1">Hi Claude! Could you develop content calendars? If you need more information from me, ask me 1-2 key questions right away. If you think I should give you more context or upload anything to help you do a better job.</p><p class="doc-text image-text-2">Hi Claude! Could you develop content calendars? If you need more information from me, ask me 1-2 key questions right away. If you think I should give you more context or upload.</p></div></article><article class="document-preview"><div class="document-sheet split-sheet"><p class="doc-text split-text-1">Hi Claude! Could you develop content calendars? If you need more information from me, ask me 1-2 key questions right away.</p><img src="https://www.figma.com/api/mcp/asset/bc282a97-d5d9-4f82-89b2-7998b7d7b669" alt="" /><p class="doc-text split-text-2">Hi Claude! Could you develop content calendars? If you need more information from me, ask me 1-2 key questions right away. If you think I should give you more context or upload anything to help you do a better job.</p><p class="doc-text split-text-3">Hi Claude! Could you develop content calendars? If you need more information from me, ask me 1-2 key questions right away. If you think I should give you more context or upload anything to help you do a better job.</p></div></article></section>
+      </section>
+    </main>
+    <script>
+      const promptInput = document.querySelector('.prompt-input');
+      const resizer = document.querySelector('.sidebar-resizer');
+      const documentAction = document.querySelector('.document-action');
+      const documentClose = document.querySelector('.document-close');
+      let documentModeTimer;
+      promptInput.addEventListener('input', () => { promptInput.style.height = 'auto'; promptInput.style.height = `${Math.max(promptInput.scrollHeight, 44)}px`; });
+      const setSidebarWidth = (width) => { const nextWidth = Math.min(Math.max(width, 220), 420); document.documentElement.style.setProperty('--sidebar-width', `${nextWidth}px`); };
+      resizer.addEventListener('pointerdown', (event) => { event.preventDefault(); resizer.setPointerCapture(event.pointerId); document.body.classList.add('is-resizing-sidebar'); });
+      resizer.addEventListener('pointermove', (event) => { if (resizer.hasPointerCapture(event.pointerId)) setSidebarWidth(event.clientX); });
+      const stopResizing = (event) => { if (resizer.hasPointerCapture(event.pointerId)) resizer.releasePointerCapture(event.pointerId); document.body.classList.remove('is-resizing-sidebar'); };
+      resizer.addEventListener('pointerup', stopResizing); resizer.addEventListener('pointercancel', stopResizing);
+      documentAction.addEventListener('click', () => { window.clearTimeout(documentModeTimer); document.body.classList.add('is-document-transition'); documentAction.setAttribute('aria-pressed', 'true'); documentModeTimer = window.setTimeout(() => { document.body.classList.add('is-document-mode'); document.body.classList.remove('is-document-transition'); }, 180); });
+      documentClose.addEventListener('click', () => { window.clearTimeout(documentModeTimer); document.body.classList.remove('is-document-mode'); document.body.classList.remove('is-document-transition'); documentAction.setAttribute('aria-pressed', 'false'); });
+    </script>
+  </body>
+</html>
